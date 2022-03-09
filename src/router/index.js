@@ -16,6 +16,12 @@ export default new Router({
       name: 'Test1',
        component: () =>
       import( "../components/Test1.vue"),
+    },
+    {
+      path: '/test2',
+      name: 'Test2',
+       component: () =>
+      import( "../components/Test2.vue"),
     }
 
   ]

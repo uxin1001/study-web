@@ -10,6 +10,11 @@ export default new Router({
       path: '/',
       name: 'HelloWorld',
       component: HelloWorld
+    },
+    {
+      path: '/test2',
+      name: 'Test2',
+      component:()=>import("../components/Test2.vue"),
     }
   ]
 })

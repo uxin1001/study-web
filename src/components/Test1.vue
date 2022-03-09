@@ -1,22 +1,19 @@
 <template>
   <div>
-{{message}}
+    {{ message }}
   </div>
-
 </template>
 
 <script>
 export default {
-  name:'Test1',
+  name: "Test1",
   data() {
-    return{
-      message:"helloworld"
-    }
-
+    return {
+      message: "你好啊",
+    };
   },
-}
+};
 </script>
 
 <style scoped>
-
 </style>
